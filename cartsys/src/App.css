@@ -1,0 +1,24 @@
+p {
+    margin: 0px 0 -2px !important;
+}
+.txtcolor{
+    color : gray;
+}
+
+.text-size{
+    font-size: 12px !important;
+}
+
+.vl{
+    border-left : 1px solid gray;
+    height: 20px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.color{
+    height: 20px;
+    width: 20px;
+}

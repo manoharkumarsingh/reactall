@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.overflow {
+  overflow: hidden;
+  position: relative;
+  max-height: 5.8em;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+
+.overflow:before {
+  content: '...';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.overflow:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+}
+
+.main{
+    margin-top:115px;
+    margin-bottom : 20px;
+}
+
+
+.navbar-top {
+    background: #4D5061;
+    border-bottom: 4px solid #60B078;
+    color: #FFF;
+}
+
+.text-white{
+    color : white;
+}
+
+.navbar-doublerow > .navbar{
+	display: block;
+	padding: 0px auto;
+	margin: 0px auto;
+	min-height: 25px;
+}
+
+/*Down nav*/
+.navbar-doublerow .navbar-down .navbar-brand {
+    /*navbar brand*/
+	padding: 0px auto;
+	float: left;
+	color: #60B078;
+	font-size: 30px;
+}
+.navbar-doublerow .navbar-down ul>li>a{
+    /*Menu items*/
+	font-size: 15px;
+	color: #000;
+}
+.navbar-doublerow .navbar-down ul>li>a:hover{
+    /*menu hover*/
+	border-bottom: 1px solid #60B078;
+	color: #60B078;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color : white;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+    text-shadow: 0 0px 0 rgba(255,255,255,.25);
+}
+
+.navbar-doublerow .navbar-top ul>li>a:hover{
+    /*menu hover*/
+	border-bottom: 1px solid #60B078;
+	color: #60B078;
+}

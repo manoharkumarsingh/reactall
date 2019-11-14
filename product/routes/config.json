@@ -1,0 +1,55 @@
+{
+
+    "sessionAuthHost": "my-company-name-api.symphony.com",
+    "sessionAuthPort": 8444,
+    "keyAuthHost": "my-company-name-api.symphony.com",
+    "keyAuthPort": 8444,
+    "podHost": "my-company-name.symphony.com",
+    "podPort": 443,
+    "agentHost": "my-company-name.symphony.com",
+    "agentPort": 443,
+
+
+    "botUsername": "my-bot-name",
+    "botEmailAddress": "bot@company.com",
+
+    "botPrivateKeyPath": "/path/to/rsa/private-key/",
+    "botPrivateKeyName": "bot-private-key.pem",
+
+    "botCertPath": "/path/to/bot-cert/",
+    "botCertName": "bot-cert.p12",
+    "botCertPassword": "bot-cert-password",
+
+
+    "appId": "",
+
+    "appPrivateKeyPath": "",
+    "appPrivateKeyName": "",
+
+    "appCertPath": "/path/to/app-cert/",
+    "appCertName": "app-cert.p12",
+    "appCertPassword": "app-cert-password",
+
+
+    "podProxyURL": "http://localhost:4600",
+    "podProxyUsername": "proxy-username",
+    "podProxyPassword": "proxy-password",
+
+
+    "proxyURL": "http://localhost:4600",
+    "proxyUsername": "proxy-username",
+    "proxyPassword": "proxy-password",
+
+
+    "keyManagerProxyURL": "http://localhost:4600",
+    "keyManagerProxyUsername": "proxy-username",
+    "keyManagerProxyPassword": "proxy-password",
+
+
+    "nodeTlsRejectUnauthorized": 0,
+
+
+    "maxRetries": 10,
+
+    "maxWaitInterval": 64
+}
